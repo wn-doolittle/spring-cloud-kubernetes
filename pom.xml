@@ -29,7 +29,7 @@
 	</parent>
 
 	<artifactId>spring-cloud-kubernetes</artifactId>
-	<version>2.0.2</version>
+	<version>2.0.2-OTK_K8s122-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Spring Cloud Kubernetes</name>
 
@@ -87,29 +87,8 @@
 	<modules>
 		<module>spring-cloud-kubernetes-dependencies</module>
 		<module>spring-cloud-kubernetes-commons</module>
-		<module>spring-cloud-kubernetes-test-support</module>
-		<module>spring-cloud-kubernetes-client-autoconfig</module>
-		<module>spring-cloud-kubernetes-client-config</module>
-		<module>spring-cloud-kubernetes-client-loadbalancer</module>
 		<module>spring-cloud-kubernetes-fabric8-autoconfig</module>
-		<module>spring-cloud-kubernetes-fabric8-config</module>
-		<module>spring-cloud-kubernetes-fabric8-discovery</module>
-		<module>spring-cloud-kubernetes-client-discovery</module>
-		<module>spring-cloud-starter-kubernetes-fabric8</module>
-		<module>spring-cloud-starter-kubernetes-fabric8-config</module>
-		<module>spring-cloud-starter-kubernetes-fabric8-all</module>
-		<module>spring-cloud-starter-kubernetes-client</module>
-		<module>spring-cloud-starter-kubernetes-client-config</module>
-		<module>spring-cloud-starter-kubernetes-client-loadbalancer</module>
-		<module>spring-cloud-starter-kubernetes-client-all</module>
-		<module>spring-cloud-kubernetes-examples</module>
 		<module>spring-cloud-kubernetes-fabric8-leader</module>
-		<module>spring-cloud-kubernetes-fabric8-istio</module>
-		<module>spring-cloud-kubernetes-controllers</module>
-		<module>spring-cloud-kubernetes-integration-tests</module>
-		<module>docs</module>
-		<module>spring-cloud-kubernetes-fabric8-loadbalancer</module>
-		<module>spring-cloud-starter-kubernetes-fabric8-loadbalancer</module>
 	</modules>
 
 	<dependencyManagement>

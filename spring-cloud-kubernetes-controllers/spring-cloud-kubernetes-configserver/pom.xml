@@ -15,7 +15,7 @@
 		<jib.version>1.8.0</jib.version>
 		<base.image>openjdk:8u222-slim</base.image>
 		<docker.registry.organization>springcloud</docker.registry.organization>
-		<plexus-archiver.version>4.1.0</plexus-archiver.version>
+		<plexus-archiver.version>4.8.0</plexus-archiver.version>
 	</properties>
 
 	<dependencies>
